@@ -56,29 +56,29 @@ const HomePage = async () => {
 
       {/* card section */}
 
-      <div className="py-12">
-        <div
-          className="lg:w-5/6 flex flex-col py-12 px-24 sm:flex-row sm:items-center items-start mx-auto"
-          style={{
-            backgroundImage: 'url("./assets/images/coverbg.svg")',
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          }}
-        >
-          <div className="text-white text-center sm:text-justify">
-            <h2 className="text-3xl mb-2">Become an Instructor!</h2>
-            <p className="flex-grow pr-0 sm:pr-16 leading-normal text-lg">
-              Speedily say has suitable disposal add boy. On forth doubt miles
-              of child. Exercise joy man children rejoiced. Yet uncommonly his
-              ten who diminution astonished.
-            </p>
-          </div>
-
-          <button className="flex-shrink-0 ml-8 text-white bg-indigo-500 py-2 px-8 text-lg mt-10 sm:mt-0 rounded-3xl border-2 border-[#9748FF] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out">
-            <span className="font-medium text-center group-hover:text-white">
-              Become an Instructor
-            </span>
-          </button>
+      {/* card section */}
+      <div className="py-20">
+        <div className="container max-w-7xl mx-auto px-4">
+            <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-primary to-purple-600 dark:from-primary/80 dark:to-purple-900 shadow-2xl">
+                {/* Decorative patterns */}
+                <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+                <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-black/10 rounded-full blur-3xl"></div>
+                
+                <div className="relative z-10 flex flex-col md:flex-row items-center justify-between p-8 md:p-16 gap-8 text-center md:text-left">
+                    <div className="space-y-4 max-w-2xl">
+                        <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
+                            Become an Instructor!
+                        </h2>
+                        <p className="text-white/90 text-lg leading-relaxed font-medium">
+                            Join our community of expert instructors. Share your knowledge, inspire students, and earn while doing what you love.
+                        </p>
+                    </div>
+                    
+                    <button className="flex-shrink-0 bg-white text-primary hover:bg-white/90 font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-xl hover:translate-y-[-2px] transition-all duration-300 transform">
+                        Start Teaching
+                    </button>
+                </div>
+            </div>
         </div>
       </div>
 
